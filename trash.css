@@ -1,0 +1,66 @@
+.layoutcontainerMain {
+  width: 100%;
+  background-color: rgb(255, 241, 226);
+}
+/* контейнер Хедера */
+.header_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 255px;
+  max-height: 382px;
+  overflow: hidden;
+  position: relative;
+}
+/* контейнер хедера без фона */
+.header_container-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+/* нав с лого и кнопками */
+.headerNav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+  max-width: 250px;
+  max-height: 68px;
+}
+.header_logo {
+  display: block;
+  max-width: 250px;
+  max-height: 68px;
+  z-index: 3;
+  width: auto;
+  height: auto;
+}
+/* текст баннера */
+.banner_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  color: white;
+  z-index: 2;
+  width: 90%;
+}
+/* фон баннера */
+.bannerBackground {
+  width: 100%;
+  min-height: 255px;
+  max-height: 382px;
+  z-index: 1;
+}
+.bannerBackground_image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+/* Добавить затемнение фона! */
+/* контейнер с меню */
